@@ -1,0 +1,45 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    margin-top: 20%;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background-color: white;
+    padding: 1rem 3rem;
+    border: 2px solid rgb(62, 62, 62);
+    color: rgb(55, 55, 55);
+    font-weight: 700;
+}
+
+span{
+    color: rgb(91, 91, 209);
+}
+
+button{
+    cursor: pointer;
+    padding: 1rem 4rem;
+    border: none;
+
+    margin-top: 1rem;
+    font-size: 21px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    border: none;
+}
